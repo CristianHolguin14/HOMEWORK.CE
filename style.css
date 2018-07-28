@@ -70,3 +70,15 @@ footer ul li {
 	background: black;
 	color: #fff;	
 }
+
+.caja {
+	margin: 10px
+}
+
+header {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 98px;
+	width: 110%;
+}

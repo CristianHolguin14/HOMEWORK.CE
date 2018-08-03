@@ -10,6 +10,35 @@
   firebase.initializeApp(config);
   const database = firebase.database();
 
-   var name = $ ('.name').val();
-   var number = $ ('.number').val();
-   var lugares = $ ('.container').val();
+$('.button').on('click', function( event ){
+  event.preventDefault();
+
+  var data = {
+    password:$('.password').val(),
+    email:$('.email').val(),
+    name:$('.name').val(),
+    apellido:$('.apellido').val(),
+    cel:$('.cel').val(),
+    number:$('.number').val(),
+    genero:$('.genero').val(),
+    dep:$('.dep').val(),
+    doc:$('.doc').val(),
+    ciu:$('.ciu').val(),
+    des:$('.des').val(),
+    nombre:$('.nombre').val(),
+    apellid:$('.apellid').val(),
+    numero:$('.numero').val(),
+    nickname:$('.nickname').val(),
+    apelli:$('.apelli').val(),
+    numbero:$('.numbero').val(),
+    user:$('.user').val()
+  }; 
+  console.log(data);
+  database.ref('/usuarios/').push(data, function(error) {
+    if (error) { throw error; }
+    else {
+      console.info ('guardamos la información');
+      location.href="Adentro.html"
+    };
+  });
+}); 

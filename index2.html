@@ -6,610 +6,611 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 </head>
 <body>
-	<h1>registro </h1>
+	<h1>Registro</h1>
 	<br>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-sm-6">
-				<label>Nombre</label>
-				<input type="text" name="nombre" class="name">
-				<label>Apellidos</label>
-				<input type="text" name="apellidos">
-				<br>
-			</div>
-			<div class="col-md-12 col-sm-6">
-				<label> Numero de celular</label>
-				<input type="number" name="number">
-				<label>Telefono fijo</label>
-				<input type="number" name="numero">
-				<br>
-			</div>
-			<div class="col-md-12 col-sm-6">
-				<label>Email</label>
-				<input type="text" name="Email">
-				<br>
-				<label>Edad</label>
-				<input type="number" name="numero">
-				<br>
-			</div>
-			<div class="col-md-12">
-				<h6><label>Genero</label></h6>
-				<input type="radio" name="genero"><label>femenino</label>
-				<input type="radio" name="genero"><label>masculino</label>
-				<input type="radio" name="genero"><label>otro</label>
-				<br>
-			</div>
-			<div class="col-md-12">
-				
-				<label>Documento de identidad</label>
-				<input type="number" name="numero">
-				<br>
-			</div>
+			<form action="#" class="registro">
+				<div class="col-xs-12 col-md-6 col-md-6">	
 
-			<div class="col-md-12 col-sm-6">
-				<label>Departamento</label> 
-				<select>
-					<option>amazonas</option>
-					<option>antioquia</option>
-					<option>arauca</option>
-					<option>atlantico</option>
-					<option>bogota</option>
-					<option>boyaca</option>
-					<option>caldas</option>
-					<option>caquta</option>
-					<option>casanare</option>
-					<option>cauca</option>
-					<option>cesar</option>
-					<option>choco</option>
-					<option>Córdoba</option>
-					<option>Cundinamarca</option>
-					<option> Guainía</option>
-					<option> Guaviare</option>
-					<option>huila</option>
-					<option>la guajira</option>
-					<option>magdalena</option>
-					<option>meta</option>
-					<option>narino</option>
-					<option>norte de santander</option>
-					<option>putumayo</option>
-					<option>quindio</option>
-					<option>risaralda</option>
-					<option>san andres y providencia</option>
-					<option>santander</option>
-					<option>sucre</option>
-					<option>tolima</option>
-					<option>valle del cauca</option>
-					<option>vaupes</option>
-					<option>vichada</option>
-				</select>
+					<label for="name">Nombre</label>
+					<input type="text" name="name" class="name">
+					<label for="apellido">Apellidos</label>
+					<input type="text" name="apellido" class="apellido">
+					
+						
+					<div class="col-xs-12 col-md-4 col-md-4 col-md-4">
+                        <label for="number">numero de celular</label>
+						<input type="number" name="registro" class="number">
+						<label>Telefono fijo</label>
+						<input type="number" name="registro">
+						<br>
+						<label for="edad" >Edad</label>
+						<input type="number" name="registro" class="edad">
+						<br>
+					</div>
 
-				<label>Cuidad</label>
-				<select>
-					<option value="1">Abriaquí</option>
-					<option value="2">Acacías</option>
-					<option value="3">Acandí</option>
-					<option value="4">Acevedo</option>
-					<option value="5">Achí</option>
-					<option value="6">Agrado</option>
-					<option value="7">Agua de Dios</option>
-					<option value="8">Aguachica</option>
-					<option value="9">Aguada</option>
-					<option value="10">Aguadas</option>
-					<option value="11">Aguazul</option>
-					<option value="12">Agustín Codazzi</option>
-					<option value="13">Aipe</option>
-					<option value="14">Albania</option>
-					<option value="15">Albania</option>
-					<option value="16">Albania</option>
-					<option value="17">Albán</option>
-					<option value="18">Albán (San José)</option>
-					<option value="19">Alcalá</option>
-					<option value="20">Alejandria</option>
-					<option value="21">Algarrobo</option>
-					<option value="22">Algeciras</option>
-					<option value="23">Almaguer</option>
-					<option value="24">Almeida</option>
-					<option value="25">Alpujarra</option>
-					<option value="26">Altamira</option>
-					<option value="27">Alto Baudó (Pie de Pato)</option>
-					<option value="28">Altos del Rosario</option>
-					<option value="29">Alvarado</option>
-					<option value="30">Amagá</option>
-					<option value="31">Amalfi</option>
-					<option value="32">Ambalema</option>
-					<option value="33">Anapoima</option>
-					<option value="34">Ancuya</option>
-					<option value="35">Andalucía</option>
-					<option value="36">Andes</option>
-					<option value="37">Angelópolis</option>
-					<option value="38">Angostura</option>
-					<option value="39">Anolaima</option>
-					<option value="40">Anorí</option>
-					<option value="41">Anserma</option>
-					<option value="42">Ansermanuevo</option>
-					<option value="43">Anzoátegui</option>
-					<option value="44">Anzá</option>
-					<option value="45">Apartadó</option>
-					<option value="46">Apulo</option>
-					<option value="47">Apía</option>
-					<option value="48">Aquitania</option>
-					<option value="49">Aracataca</option>
-					<option value="50">Aranzazu</option>
-					<option value="51">Aratoca</option>
-					<option value="52">Arauca</option>
-					<option value="53">Arauquita</option>
-					<option value="54">Arbeláez</option>
-					<option value="55">Arboleda (Berruecos)</option>
-					<option value="56">Arboledas</option>
-					<option value="57">Arboletes</option>
-					<option value="58">Arcabuco</option>
-					<option value="59">Arenal</option>
-					<option value="60">Argelia</option>
-					<option value="63">Ariguaní (El Difícil)</option>
-					<option value="64">Arjona</option>
-					<option value="65">Armenia</option>
-					<option value="66">Armenia</option>
-					<option value="67">Armero (Guayabal)</option>
-					<option value="68">Arroyohondo</option>
-					<option value="69">Astrea</option>
-					<option value="70">Ataco</option>
-					<option value="71">Atrato (Yuto)</option>
-					<option value="72">Ayapel</option>
-					<option value="73">Bagadó</option>
-					<option value="74">Bahía Solano (Mútis)</option>
-					<option value="75">Bajo Baudó (Pizarro)</option>
-					<option value="76">Balboa</option>
-					<option value="77">Balboa</option>
-					<option value="78">Baranoa</option>
-					<option value="79">Baraya</option>
-					<option value="80">Barbacoas</option>
-					<option value="81">Barbosa</option>
-					<option value="82">Barbosa</option>
-					<option value="83">Barichara</option>
-					<option value="84">Barranca de Upía</option>
-					<option value="85">Barrancabermeja</option>
-					<option value="86">Barrancas</option>
-					<option value="87">Barranco de Loba</option>
-					<option value="88">Barranquilla</option>
-					<option value="89">Becerríl</option>
-					<option value="90">Belalcázar</option>
-					<option value="91">Bello</option>
-					<option value="92">Belmira</option>
-					<option value="93">Beltrán</option>
-					<option value="94">Belén</option>
-					<option value="95">Belén</option>
-					<option value="96">Belén de Bajirá</option>
-					<option value="97">Belén de Umbría</option>
-					<option value="98">Belén de los Andaquíes</option>
-					<option value="99">Berbeo</option>
-					<option value="100">Betania</option>
-					<option value="101">Beteitiva</option>
-					<option value="102">Betulia</option>
-					<option value="104">Bituima</option>
-					<option value="105">Boavita</option>
-					<option value="106">Bochalema</option>
-					<option value="107">Bogotá D.C.</option>
-					<option value="108">Bojacá</option>
-					<option value="109">Bojayá (Bellavista)</option>
-					<option value="112">Bolívar</option>
-					<option value="114">Bosconia</option>
-					<option value="115">Boyacá</option>
-					<option value="117">Briceño</option>
-					<option value="118">Bucaramanga</option>
-					<option value="119">Bucarasica</option>
-					<option value="120">Buenaventura</option>
-					<option value="124">Buenavista</option>
-					<option value="125">Buenos Aires</option>
-					<option value="126">Buesaco</option>
-					<option value="127">Buga</option>
-					<option value="128">Bugalagrande</option>
-					<option value="129">Burítica</option>
-					<option value="130">Busbanza</option>
-					<option value="131">Cabrera</option>
-					<option value="132">Cabrera</option>
-					<option value="133">Cabuyaro</option>
-					<option value="134">Cachipay</option>
-					<option value="135">Caicedo</option>
-					<option value="136">Caicedonia</option>
-					<option value="137">Caimito</option>
-					<option value="138">Cajamarca</option>
-					<option value="139">Cajibío</option>
-					<option value="140">Cajicá</option>
-					<option value="141">Calamar</option>
-					<option value="142">Calamar</option>
-					<option value="143">Calarcá</option>
-					<option value="145">Caldas</option>
-					<option value="146">Caldono</option>
-					<option value="147">California</option>
-					<option value="148">Calima (Darién)</option>
-					<option value="149">Caloto</option>
-					<option value="150">Calí</option>
-					<option value="151">Campamento</option>
-					<option value="152">Campo de la Cruz</option>
-					<option value="153">Campoalegre</option>
-					<option value="154">Campohermoso</option>
-					<option value="155">Canalete</option>
-					<option value="157">Candelaria</option>
-					<option value="158">Cantagallo</option>
-					<option value="159">Cantón de San Pablo</option>
-					<option value="160">Caparrapí</option>
-					<option value="161">Capitanejo</option>
-					<option value="162">Caracolí</option>
-					<option value="163">Caramanta</option>
-					<option value="164">Carcasí</option>
-					<option value="165">Carepa</option>
-					<option value="166">Carmen de Apicalá</option>
-					<option value="167">Carmen de Carupa</option>
-					<option value="168">Carmen de Viboral</option>
-					<option value="169">Carmen del Darién (CURBARADÓ)</option>
-					<option value="170">Carolina</option>
-					<option value="171">Cartagena</option>
-					<option value="172">Cartagena del Chairá</option>
-					<option value="173">Cartago</option>
-					<option value="174">Carurú</option>
-					<option value="175">Casabianca</option>
-					<option value="176">Castilla la Nueva</option>
-					<option value="177">Caucasia</option>
-					<option value="178">Cañasgordas</option>
-					<option value="179">Cepita</option>
-					<option value="180">Cereté</option>
-					<option value="181">Cerinza</option>
-					<option value="182">Cerrito</option>
-					<option value="183">Cerro San Antonio</option>
-					<option value="184">Chachaguí</option>
-					<option value="185">Chaguaní</option>
-					<option value="186">Chalán</option>
-					<option value="187">Chaparral</option>
-					<option value="188">Charalá</option>
-					<option value="189">Charta</option>
-					<option value="190">Chigorodó</option>
-					<option value="191">Chima</option>
-					<option value="192">Chimichagua</option>
-					<option value="193">Chimá</option>
-					<option value="194">Chinavita</option>
-					<option value="195">Chinchiná</option>
-					<option value="196">Chinácota</option>
-					<option value="197">Chinú</option>
-					<option value="198">Chipaque</option>
-					<option value="199">Chipatá</option>
-					<option value="200">Chiquinquirá</option>
-					<option value="201">Chiriguaná</option>
-					<option value="202">Chiscas</option>
-					<option value="203">Chita</option>
-					<option value="204">Chitagá</option>
-					<option value="205">Chitaraque</option>
-					<option value="206">Chivatá</option>
-					<option value="207">Chivolo</option>
-					<option value="208">Choachí</option>
-					<option value="209">Chocontá</option>
-					<option value="210">Chámeza</option>
-					<option value="211">Chía</option>
-					<option value="212">Chíquiza</option>
-					<option value="213">Chívor</option>
-					<option value="214">Cicuco</option>
-					<option value="215">Cimitarra</option>
-					<option value="216">Circasia</option>
-					<option value="217">Cisneros</option>
-					<option value="218">Ciénaga</option>
-					<option value="219">Ciénaga</option>
-					<option value="220">Ciénaga de Oro</option>
-					<option value="221">Clemencia</option>
-					<option value="222">Cocorná</option>
-					<option value="223">Coello</option>
-					<option value="224">Cogua</option>
-					<option value="225">Colombia</option>
-					<option value="226">Colosó (Ricaurte)</option>
-					<option value="227">Colón</option>
-					<option value="228">Colón (Génova)</option>
-					<option value="229">Concepción</option>
-					<option value="232">Concordia</option>
-					<option value="233">Condoto</option>
-					<option value="234">Confines</option>
-					<option value="235">Consaca</option>
-					<option value="236">Contadero</option>
-					<option value="237">Contratación</option>
-					<option value="238">Convención</option>
-					<option value="239">Copacabana</option>
-					<option value="240">Coper</option>
-					<option value="241">Cordobá</option>
-					<option value="242">Corinto</option>
-					<option value="243">Coromoro</option>
-					<option value="244">Corozal</option>
-					<option value="245">Corrales</option>
-					<option value="246">Cota</option>
-					<option value="247">Cotorra</option>
-					<option value="248">Covarachía</option>
-					<option value="249">Coveñas</option>
-					<option value="250">Coyaima</option>
-					<option value="251">Cravo Norte</option>
-					<option value="252">Cuaspud (Carlosama)</option>
-					<option value="253">Cubarral</option>
-					<option value="254">Cubará</option>
-					<option value="255">Cucaita</option>
-					<option value="256">Cucunubá</option>
-					<option value="257">Cucutilla</option>
-					<option value="258">Cuitiva</option>
-					<option value="259">Cumaral</option>
-					<option value="260">Cumaribo</option>
-					<option value="261">Cumbal</option>
-					<option value="262">Cumbitara</option>
-					<option value="263">Cunday</option>
-					<option value="264">Curillo</option>
-					<option value="265">Curití</option>
-					<option value="266">Curumaní</option>
-					<option value="267">Cáceres</option>
-					<option value="268">Cáchira</option>
-					<option value="269">Cácota</option>
-					<option value="270">Cáqueza</option>
-					<option value="271">Cértegui</option>
-					<option value="272">Cómbita</option>
-					<option value="273">Córdoba</option>
-					<option value="274">Córdoba</option>
-					<option value="275">Cúcuta</option>
-					<option value="276">Dabeiba</option>
-					<option value="277">Dagua</option>
-					<option value="278">Dibulla</option>
-					<option value="279">Distracción</option>
-					<option value="280">Dolores</option>
-					<option value="281">Don Matías</option>
-					<option value="282">Dos Quebradas</option>
-					<option value="283">Duitama</option>
-					<option value="284">Durania</option>
-					<option value="285">Ebéjico</option>
-					<option value="286">El Bagre</option>
-					<option value="287">El Banco</option>
-					<option value="288">El Cairo</option>
-					<option value="289">El Calvario</option>
-					<option value="290">El Carmen</option>
-					<option value="291">El Carmen</option>
-					<option value="292">El Carmen de Atrato</option>
-					<option value="293">El Carmen de Bolívar</option>
-					<option value="294">El Castillo</option>
-					<option value="295">El Cerrito</option>
-					<option value="296">El Charco</option>
-					<option value="297">El Cocuy</option>
-					<option value="298">El Colegio</option>
-					<option value="299">El Copey</option>
-					<option value="300">El Doncello</option>
-					<option value="301">El Dorado</option>
-					<option value="302">El Dovio</option>
-					<option value="303">El Espino</option>
-					<option value="304">El Guacamayo</option>
-					<option value="305">El Guamo</option>
-					<option value="306">El Molino</option>
-					<option value="307">El Paso</option>
-					<option value="308">El Paujil</option>
-					<option value="309">El Peñol</option>
-					<option value="310">El Peñon</option>
-					<option value="311">El Peñon</option>
-					<option value="312">El Peñón</option>
-					<option value="313">El Piñon</option>
-					<option value="314">El Playón</option>
-					<option value="315">El Retorno</option>
-					<option value="316">El Retén</option>
-					<option value="317">El Roble</option>
-					<option value="318">El Rosal</option>
-					<option value="319">El Rosario</option>
-					<option value="320">El Tablón de Gómez</option>
-					<option value="322">El Tambo</option>
-					<option value="323">El Tarra</option>
-					<option value="324">El Zulia</option>
-					<option value="325">El Águila</option>
-					<option value="326">Elías</option>
-					<option value="327">Encino</option>
-					<option value="328">Enciso</option>
-					<option value="329">Entrerríos</option>
-					<option value="330">Envigado</option>
-					<option value="331">Espinal</option>
-					<option value="332">Facatativá</option>
-					<option value="333">Falan</option>
-					<option value="334">Filadelfia</option>
-					<option value="335">Filandia</option>
-					<option value="336">Firavitoba</option>
-					<option value="337">Flandes</option>
-					<option value="339">Florencia</option>
-					<option value="340">Floresta</option>
-					<option value="341">Florida</option>
-					<option value="342">Floridablanca</option>
-					<option value="343">Florián</option>
-					<option value="344">Fonseca</option>
-					<option value="345">Fortúl</option>
-					<option value="346">Fosca</option>
-					<option value="347">Francisco Pizarro</option>
-					<option value="348">Fredonia</option>
-					<option value="349">Fresno</option>
-					<option value="350">Frontino</option>
-					<option value="351">Fuente de Oro</option>
-					<option value="352">Fundación</option>
-					<option value="353">Funes</option>
-					<option value="354">Funza</option>
-					<option value="355">Fusagasugá</option>
-					<option value="356">Fómeque</option>
-					<option value="357">Fúquene</option>
-					<option value="358">Gachalá</option>
-					<option value="359">Gachancipá</option>
-					<option value="360">Gachantivá</option>
-					<option value="361">Gachetá</option>
-					<option value="362">Galapa</option>
-					<option value="363">Galeras (Nueva Granada)</option>
-					<option value="364">Galán</option>
-					<option value="365">Gama</option>
-					<option value="366">Gamarra</option>
-					<option value="367">Garagoa</option>
-					<option value="368">Garzón</option>
-					<option value="369">Gigante</option>
-					<option value="370">Ginebra</option>
-					<option value="371">Giraldo</option>
-					<option value="372">Girardot</option>
-					<option value="373">Girardota</option>
-					<option value="374">Girón</option>
-					<option value="375">Gonzalez</option>
-					<option value="376">Gramalote</option>
-					<option value="377">Granada</option>
-					<option value="378">Granada</option>
-					<option value="379">Granada</option>
-					<option value="380">Guaca</option>
-					<option value="381">Guacamayas</option>
-					<option value="382">Guacarí</option>
-					<option value="383">Guachavés</option>
-					<option value="384">Guachené</option>
-					<option value="385">Guachetá</option>
-					<option value="386">Guachucal</option>
-					<option value="389">Guadalupe</option>
-					<option value="390">Guaduas</option>
-					<option value="391">Guaitarilla</option>
-					<option value="392">Gualmatán</option>
-					<option value="393">Guamal</option>
-					<option value="394">Guamal</option>
-					<option value="395">Guamo</option>
-					<option value="396">Guapota</option>
-					<option value="397">Guapí</option>
-					<option value="398">Guaranda</option>
-					<option value="399">Guarne</option>
-					<option value="400">Guasca</option>
-					<option value="401">Guatapé</option>
-					<option value="402">Guataquí</option>
-					<option value="403">Guatavita</option>
-					<option value="404">Guateque</option>
-					<option value="405">Guavatá</option>
-					<option value="406">Guayabal de Siquima</option>
-					<option value="407">Guayabetal</option>
-					<option value="408">Guayatá</option>
-					<option value="409">Guepsa</option>
-					<option value="410">Guicán</option>
-					<option value="411">Gutiérrez</option>
-					<option value="412">Guática</option>
-					<option value="413">Gámbita</option>
-					<option value="414">Gámeza</option>
-					<option value="415">Génova</option>
-					<option value="416">Gómez Plata</option>
-					<option value="417">Hacarí</option>
-					<option value="418">Hatillo de Loba</option>
-					<option value="419">Hato</option>
-					<option value="420">Hato Corozal</option>
-					<option value="421">Hatonuevo</option>
-					<option value="422">Heliconia</option>
-					<option value="423">Herrán</option>
-					<option value="424">Herveo</option>
-					<option value="425">Hispania</option>
-					<option value="426">Hobo</option>
-					<option value="427">Honda</option>
-					<option value="428">Ibagué</option>
-					<option value="429">Icononzo</option>
-					<option value="430">Iles</option>
-					<option value="431">Imúes</option>
-					<option value="432">Inzá</option>
-					<option value="433">Inírida</option>
-					<option value="434">Ipiales</option>
-					<option value="435">Isnos</option>
-					<option value="436">Istmina</option>
-					<option value="437">Itagüí</option>
-					<option value="438">Ituango</option>
-					<option value="439">Izá</option>
-					<option value="440">Jambaló</option>
-					<option value="441">Jamundí</option>
-					<option value="442">Jardín</option>
-					<option value="443">Jenesano</option>
-					<option value="444">Jericó</option>
-					<option value="445">Jericó</option>
-					<option value="446">Jerusalén</option>
-					<option value="447">Jesús María</option>
-					<option value="448">Jordán</option>
-					<option value="449">Juan de Acosta</option>
-					<option value="450">Junín</option>
-					<option value="451">Juradó</option>
-					<option value="452">La Apartada y La Frontera</option>
-					<option value="453">La Argentina</option>
-					<option value="454">La Belleza</option>
-					<option value="455">La Calera</option>
-					<option value="456">La Capilla</option>
-					<option value="457">La Ceja</option>
-					<option value="458">La Celia</option>
-					<option value="459">La Cruz</option>
-					<option value="460">La Cumbre</option>
-					<option value="461">La Dorada</option>
-					<option value="462">La Esperanza</option>
-					<option value="463">La Estrella</option>
-					<option value="464">La Florida</option>
-					<option value="465">La Gloria</option>
-					<option value="466">La Jagua de Ibirico</option>
-					<option value="467">La Jagua del Pilar</option>
-					<option value="468">La Llanada</option>
-					<option value="469">La Macarena</option>
-					<option value="470">La Merced</option>
-					<option value="471">La Mesa</option>
-					<option value="472">La Montañita</option>
-					<option value="473">La Palma</option>
-					<option value="474">La Paz</option>
-					<option value="475">La Paz (Robles)</option>
-					<option value="476">La Peña</option>
-					<option value="477">La Pintada</option>
-					<option value="478">La Plata</option>
-					<option value="479">La Playa</option>
-					<option value="480">La Primavera</option>
-					<option value="481">La Salina</option>
-					<option value="482">La Sierra</option>
-					<option value="483">La Tebaida</option>
-					<option value="484">La Tola</option>
-					<option value="485">La Unión</option>
-					<option value="486">La Unión</option>
-					<option value="487">La Unión</option>
-					<option value="488">La Unión</option>
-					<option value="489">La Uvita</option>
-					<option value="490">La Vega</option>
-					<option value="491">La Vega</option>
-					<option value="492">La Victoria</pption>
-						<option value="493">La Victoria</option>
-						<option value="494">La Victoria</option>
-						<option value="495">La Virginia</option>
-						<option value="496">Labateca</option>
-						<option value="497">Labranzagrande</option>
-						<option value="498">Landázuri</option>
-						<option value="499">Lebrija</option>
-						<option value="500">Leiva</option>
-						<option value="501">Lejanías</option>
-						<option value="502">Lenguazaque</option>
-						<option value="503">Leticia</option>
-						<option value="504">Liborina</option>
-						<option value="505">Linares</option>
-						<option value="506">Lloró</option>
-						<option value="507">Lorica</option>
-						<option value="508">Los Córdobas</option>
-						<option value="509">Los Palmitos</option>
-						<option value="510">Los Patios</option>
-						<option value="511">Los Santos</option>
-						<option value="512">Lourdes</option>
-						<option value="513">Luruaco</option>
-						<option value="514">Lérida</option>
-						<option value="515">Líbano</option>
-						<option value="516">López (Micay)</option>
-						<option value="517">Macanal</option>
-						<option value="518">Macaravita</option>
-						<option value="519">Maceo</option>
-						<option value="520">Machetá</option>
-						<option value="521">Madrid</option>
-						<option value="522">Magangué</option>
-						<option value="523">Magüi (Payán)</option>
-						<option value="524">Mahates</option>
-						<option value="n525">Maicao</option>
-						<option value="526">Majagual</option>
-						<option value="527">Malambo</option>
-						<option value="528">Mallama (Piedrancha)</option>
-						<option value="529">Manatí</option>
-						<option value="530">Manaure</option>
-						<option value="531">Manaure Balcón del Cesar</option>
-						<option value="532">Manizales</option>
-						<option value="533">Manta</option>
-						<option value="534">Manzanares</option>
-						<option value="535">Maní</option>
-						<option value="536">Mapiripan</option>
-						<option value="537">Margarita</option>
-						<option value="538">Marinilla</option>
-						<option value="539">Maripí</option>
-						<option value="540">Mariquita</option>
-						<option value="541">Marmato</option>
-						<option value="542">Marquetalia</option>
-						<option value="543">Marsella</optio>
+					<div class="col-md-12 col-sm-6">
+
+						<h6><label>Genero</label></h6>
+						<input  type="radio" name="registro" class="genero">
+						<label for="genero">Femenino</label>
+						<input  type="radio" name="registro" class="genero">
+						<label for="genero">Masculino</label>
+						<input type="radio" name="registro" class="genero">
+						<label for="genero">Otro</label>
+						<br>
+						<label for="number" >Documento de identidad</label>
+						<input type="number" name="registro" class="number">
+						<br>
+					</div>
+
+					<div class="col-md-12 col-sm-6">
+
+						<!--Departamentos-->
+						<label for="dep"> Departamento</label>
+						<select name="registro" class="dep">						
+							<option>amazonas</option>
+							<option>antioquia</option>
+							<option>arauca</option>
+							<option>atlantico</option>
+							<option>bogota</option>
+							<option>boyaca</option>
+							<option>caldas</option>
+							<option>caquta</option>
+							<option>casanare</option>
+							<option>cauca</option>
+							<option>cesar</option>
+							<option>choco</option>
+							<option>Córdoba</option>
+							<option>Cundinamarca</option>
+							<option> Guainía</option>
+							<option> Guaviare</option>
+							<option>huila</option>
+							<option>la guajira</option>
+							<option>magdalena</option>
+							<option>meta</option>
+							<option>narino</option>
+							<option>norte de santander</option>
+							<option>putumayo</option>
+							<option>quindio</option>
+							<option>risaralda</option>
+							<option>san andres y providencia</option>
+							<option>santander</option>
+							<option>sucre</option>
+							<option>tolima</option>
+							<option>valle del cauca</option>
+							<option>vaupes</option>
+							<option>vichada</option>
+						</select>
+						<!--Ciudades-->
+						<label for="ciu">Ciudad</label>
+						<select name="registro" >
+							<option value="1">Abriaquí</option>
+							<option value="2">Acacías</option>
+							<option value="3">Acandí</option>
+							<option value="4">Acevedo</option>
+							<option value="5">Achí</option>
+							<option value="6">Agrado</option>
+							<option value="7">Agua de Dios</option>
+							<option value="8">Aguachica</option>
+							<option value="9">Aguada</option>
+							<option value="10">Aguadas</option>
+							<option value="11">Aguazul</option>
+							<option value="12">Agustín Codazzi</option>
+							<option value="13">Aipe</option>
+							<option value="14">Albania</option>
+							<option value="15">Albania</option>
+							<option value="16">Albania</option>
+							<option value="17">Albán</option>
+							<option value="18">Albán (San José)</option>
+							<option value="19">Alcalá</option>
+							<option value="20">Alejandria</option>
+							<option value="21">Algarrobo</option>
+							<option value="22">Algeciras</option>
+							<option value="23">Almaguer</option>
+							<option value="24">Almeida</option>
+							<option value="25">Alpujarra</option>
+							<option value="26">Altamira</option>
+							<option value="27">Alto Baudó (Pie de Pato)</option>
+							<option value="28">Altos del Rosario</option>
+							<option value="29">Alvarado</option>
+							<option value="30">Amagá</option>
+							<option value="31">Amalfi</option>
+							<option value="32">Ambalema</option>
+							<option value="33">Anapoima</option>
+							<option value="34">Ancuya</option>
+							<option value="35">Andalucía</option>
+							<option value="36">Andes</option>
+							<option value="37">Angelópolis</option>
+							<option value="38">Angostura</option>
+							<option value="39">Anolaima</option>
+							<option value="40">Anorí</option>
+							<option value="41">Anserma</option>
+							<option value="42">Ansermanuevo</option>
+							<option value="43">Anzoátegui</option>
+							<option value="44">Anzá</option>
+							<option value="45">Apartadó</option>
+							<option value="46">Apulo</option>
+							<option value="47">Apía</option>
+							<option value="48">Aquitania</option>
+							<option value="49">Aracataca</option>
+							<option value="50">Aranzazu</option>
+							<option value="51">Aratoca</option>
+							<option value="52">Arauca</option>
+							<option value="53">Arauquita</option>
+							<option value="54">Arbeláez</option>
+							<option value="55">Arboleda (Berruecos)</option>
+							<option value="56">Arboledas</option>
+							<option value="57">Arboletes</option>
+							<option value="58">Arcabuco</option>
+							<option value="59">Arenal</option>
+							<option value="60">Argelia</option>
+							<option value="63">Ariguaní (El Difícil)</option>
+							<option value="64">Arjona</option>
+							<option value="65">Armenia</option>
+							<option value="66">Armenia</option>
+							<option value="67">Armero (Guayabal)</option>
+							<option value="68">Arroyohondo</option>
+							<option value="69">Astrea</option>
+							<option value="70">Ataco</option>
+							<option value="71">Atrato (Yuto)</option>
+							<option value="72">Ayapel</option>
+							<option value="73">Bagadó</option>
+							<option value="74">Bahía Solano (Mútis)</option>
+							<option value="75">Bajo Baudó (Pizarro)</option>
+							<option value="76">Balboa</option>
+							<option value="77">Balboa</option>
+							<option value="78">Baranoa</option>
+							<option value="79">Baraya</option>
+							<option value="80">Barbacoas</option>
+							<option value="81">Barbosa</option>
+							<option value="82">Barbosa</option>
+							<option value="83">Barichara</option>
+							<option value="84">Barranca de Upía</option>
+							<option value="85">Barrancabermeja</option>
+							<option value="86">Barrancas</option>
+							<option value="87">Barranco de Loba</option>
+							<option value="88">Barranquilla</option>
+							<option value="89">Becerríl</option>
+							<option value="90">Belalcázar</option>
+							<option value="91">Bello</option>
+							<option value="92">Belmira</option>
+							<option value="93">Beltrán</option>
+							<option value="94">Belén</option>
+							<option value="95">Belén</option>
+							<option value="96">Belén de Bajirá</option>
+							<option value="97">Belén de Umbría</option>
+							<option value="98">Belén de los Andaquíes</option>
+							<option value="99">Berbeo</option>
+							<option value="100">Betania</option>
+							<option value="101">Beteitiva</option>
+							<option value="102">Betulia</option>
+							<option value="104">Bituima</option>
+							<option value="105">Boavita</option>
+							<option value="106">Bochalema</option>
+							<option value="107">Bogotá D.C.</option>
+							<option value="108">Bojacá</option>
+							<option value="109">Bojayá (Bellavista)</option>
+							<option value="112">Bolívar</option>
+							<option value="114">Bosconia</option>
+							<option value="115">Boyacá</option>
+							<option value="117">Briceño</option>
+							<option value="118">Bucaramanga</option>
+							<option value="119">Bucarasica</option>
+							<option value="120">Buenaventura</option>
+							<option value="124">Buenavista</option>
+							<option value="125">Buenos Aires</option>
+							<option value="126">Buesaco</option>
+							<option value="127">Buga</option>
+							<option value="128">Bugalagrande</option>
+							<option value="129">Burítica</option>
+							<option value="130">Busbanza</option>
+							<option value="131">Cabrera</option>
+							<option value="132">Cabrera</option>
+							<option value="133">Cabuyaro</option>
+							<option value="134">Cachipay</option>
+							<option value="135">Caicedo</option>
+							<option value="136">Caicedonia</option>
+							<option value="137">Caimito</option>
+							<option value="138">Cajamarca</option>
+							<option value="139">Cajibío</option>
+							<option value="140">Cajicá</option>
+							<option value="141">Calamar</option>
+							<option value="142">Calamar</option>
+							<option value="143">Calarcá</option>
+							<option value="145">Caldas</option>
+							<option value="146">Caldono</option>
+							<option value="147">California</option>
+							<option value="148">Calima (Darién)</option>
+							<option value="149">Caloto</option>
+							<option value="150">Calí</option>
+							<option value="151">Campamento</option>
+							<option value="152">Campo de la Cruz</option>
+							<option value="153">Campoalegre</option>
+							<option value="154">Campohermoso</option>
+							<option value="155">Canalete</option>
+							<option value="157">Candelaria</option>
+							<option value="158">Cantagallo</option>
+							<option value="159">Cantón de San Pablo</option>
+							<option value="160">Caparrapí</option>
+							<option value="161">Capitanejo</option>
+							<option value="162">Caracolí</option>
+							<option value="163">Caramanta</option>
+							<option value="164">Carcasí</option>
+							<option value="165">Carepa</option>
+							<option value="166">Carmen de Apicalá</option>
+							<option value="167">Carmen de Carupa</option>
+							<option value="168">Carmen de Viboral</option>
+							<option value="169">Carmen del Darién (CURBARADÓ)</option>
+							<option value="170">Carolina</option>
+							<option value="171">Cartagena</option>
+							<option value="172">Cartagena del Chairá</option>
+							<option value="173">Cartago</option>
+							<option value="174">Carurú</option>
+							<option value="175">Casabianca</option>
+							<option value="176">Castilla la Nueva</option>
+							<option value="177">Caucasia</option>
+							<option value="178">Cañasgordas</option>
+							<option value="179">Cepita</option>
+							<option value="180">Cereté</option>
+							<option value="181">Cerinza</option>
+							<option value="182">Cerrito</option>
+							<option value="183">Cerro San Antonio</option>
+							<option value="184">Chachaguí</option>
+							<option value="185">Chaguaní</option>
+							<option value="186">Chalán</option>
+							<option value="187">Chaparral</option>
+							<option value="188">Charalá</option>
+							<option value="189">Charta</option>
+							<option value="190">Chigorodó</option>
+							<option value="191">Chima</option>
+							<option value="192">Chimichagua</option>
+							<option value="193">Chimá</option>
+							<option value="194">Chinavita</option>
+							<option value="195">Chinchiná</option>
+							<option value="196">Chinácota</option>
+							<option value="197">Chinú</option>
+							<option value="198">Chipaque</option>
+							<option value="199">Chipatá</option>
+							<option value="200">Chiquinquirá</option>
+							<option value="201">Chiriguaná</option>
+							<option value="202">Chiscas</option>
+							<option value="203">Chita</option>
+							<option value="204">Chitagá</option>
+							<option value="205">Chitaraque</option>
+							<option value="206">Chivatá</option>
+							<option value="207">Chivolo</option>
+							<option value="208">Choachí</option>
+							<option value="209">Chocontá</option>
+							<option value="210">Chámeza</option>
+							<option value="211">Chía</option>
+							<option value="212">Chíquiza</option>
+							<option value="213">Chívor</option>
+							<option value="214">Cicuco</option>
+							<option value="215">Cimitarra</option>
+							<option value="216">Circasia</option>
+							<option value="217">Cisneros</option>
+							<option value="218">Ciénaga</option>
+							<option value="219">Ciénaga</option>
+							<option value="220">Ciénaga de Oro</option>
+							<option value="221">Clemencia</option>
+							<option value="222">Cocorná</option>
+							<option value="223">Coello</option>
+							<option value="224">Cogua</option>
+							<option value="225">Colombia</option>
+							<option value="226">Colosó (Ricaurte)</option>
+							<option value="227">Colón</option>
+							<option value="228">Colón (Génova)</option>
+							<option value="229">Concepción</option>
+							<option value="232">Concordia</option>
+							<option value="233">Condoto</option>
+							<option value="234">Confines</option>
+							<option value="235">Consaca</option>
+							<option value="236">Contadero</option>
+							<option value="237">Contratación</option>
+							<option value="238">Convención</option>
+							<option value="239">Copacabana</option>
+							<option value="240">Coper</option>
+							<option value="241">Cordobá</option>
+							<option value="242">Corinto</option>
+							<option value="243">Coromoro</option>
+							<option value="244">Corozal</option>
+							<option value="245">Corrales</option>
+							<option value="246">Cota</option>
+							<option value="247">Cotorra</option>
+							<option value="248">Covarachía</option>
+							<option value="249">Coveñas</option>
+							<option value="250">Coyaima</option>
+							<option value="251">Cravo Norte</option>
+							<option value="252">Cuaspud (Carlosama)</option>
+							<option value="253">Cubarral</option>
+							<option value="254">Cubará</option>
+							<option value="255">Cucaita</option>
+							<option value="256">Cucunubá</option>
+							<option value="257">Cucutilla</option>
+							<option value="258">Cuitiva</option>
+							<option value="259">Cumaral</option>
+							<option value="260">Cumaribo</option>
+							<option value="261">Cumbal</option>
+							<option value="262">Cumbitara</option>
+							<option value="263">Cunday</option>
+							<option value="264">Curillo</option>
+							<option value="265">Curití</option>
+							<option value="266">Curumaní</option>
+							<option value="267">Cáceres</option>
+							<option value="268">Cáchira</option>
+							<option value="269">Cácota</option>
+							<option value="270">Cáqueza</option>
+							<option value="271">Cértegui</option>
+							<option value="272">Cómbita</option>
+							<option value="273">Córdoba</option>
+							<option value="274">Córdoba</option>
+							<option value="275">Cúcuta</option>
+							<option value="276">Dabeiba</option>
+							<option value="277">Dagua</option>
+							<option value="278">Dibulla</option>
+							<option value="279">Distracción</option>
+							<option value="280">Dolores</option>
+							<option value="281">Don Matías</option>
+							<option value="282">Dos Quebradas</option>
+							<option value="283">Duitama</option>
+							<option value="284">Durania</option>
+							<option value="285">Ebéjico</option>
+							<option value="286">El Bagre</option>
+							<option value="287">El Banco</option>
+							<option value="288">El Cairo</option>
+							<option value="289">El Calvario</option>
+							<option value="290">El Carmen</option>
+							<option value="291">El Carmen</option>
+							<option value="292">El Carmen de Atrato</option>
+							<option value="293">El Carmen de Bolívar</option>
+							<option value="294">El Castillo</option>
+							<option value="295">El Cerrito</option>
+							<option value="296">El Charco</option>
+							<option value="297">El Cocuy</option>
+							<option value="298">El Colegio</option>
+							<option value="299">El Copey</option>
+							<option value="300">El Doncello</option>
+							<option value="301">El Dorado</option>
+							<option value="302">El Dovio</option>
+							<option value="303">El Espino</option>
+							<option value="304">El Guacamayo</option>
+							<option value="305">El Guamo</option>
+							<option value="306">El Molino</option>
+							<option value="307">El Paso</option>
+							<option value="308">El Paujil</option>
+							<option value="309">El Peñol</option>
+							<option value="310">El Peñon</option>
+							<option value="311">El Peñon</option>
+							<option value="312">El Peñón</option>
+							<option value="313">El Piñon</option>
+							<option value="314">El Playón</option>
+							<option value="315">El Retorno</option>
+							<option value="316">El Retén</option>
+							<option value="317">El Roble</option>
+							<option value="318">El Rosal</option>
+							<option value="319">El Rosario</option>
+							<option value="320">El Tablón de Gómez</option>
+							<option value="322">El Tambo</option>
+							<option value="323">El Tarra</option>
+							<option value="324">El Zulia</option>
+							<option value="325">El Águila</option>
+							<option value="326">Elías</option>
+							<option value="327">Encino</option>
+							<option value="328">Enciso</option>
+							<option value="329">Entrerríos</option>
+							<option value="330">Envigado</option>
+							<option value="331">Espinal</option>
+							<option value="332">Facatativá</option>
+							<option value="333">Falan</option>
+							<option value="334">Filadelfia</option>
+							<option value="335">Filandia</option>
+							<option value="336">Firavitoba</option>
+							<option value="337">Flandes</option>
+							<option value="339">Florencia</option>
+							<option value="340">Floresta</option>
+							<option value="341">Florida</option>
+							<option value="342">Floridablanca</option>
+							<option value="343">Florián</option>
+							<option value="344">Fonseca</option>
+							<option value="345">Fortúl</option>
+							<option value="346">Fosca</option>
+							<option value="347">Francisco Pizarro</option>
+							<option value="348">Fredonia</option>
+							<option value="349">Fresno</option>
+							<option value="350">Frontino</option>
+							<option value="351">Fuente de Oro</option>
+							<option value="352">Fundación</option>
+							<option value="353">Funes</option>
+							<option value="354">Funza</option>
+							<option value="355">Fusagasugá</option>
+							<option value="356">Fómeque</option>
+							<option value="357">Fúquene</option>
+							<option value="358">Gachalá</option>
+							<option value="359">Gachancipá</option>
+							<option value="360">Gachantivá</option>
+							<option value="361">Gachetá</option>
+							<option value="362">Galapa</option>
+							<option value="363">Galeras (Nueva Granada)</option>
+							<option value="364">Galán</option>
+							<option value="365">Gama</option>
+							<option value="366">Gamarra</option>
+							<option value="367">Garagoa</option>
+							<option value="368">Garzón</option>
+							<option value="369">Gigante</option>
+							<option value="370">Ginebra</option>
+							<option value="371">Giraldo</option>
+							<option value="372">Girardot</option>
+							<option value="373">Girardota</option>
+							<option value="374">Girón</option>
+							<option value="375">Gonzalez</option>
+							<option value="376">Gramalote</option>
+							<option value="377">Granada</option>
+							<option value="378">Granada</option>
+							<option value="379">Granada</option>
+							<option value="380">Guaca</option>
+							<option value="381">Guacamayas</option>
+							<option value="382">Guacarí</option>
+							<option value="383">Guachavés</option>
+							<option value="384">Guachené</option>
+							<option value="385">Guachetá</option>
+							<option value="386">Guachucal</option>
+							<option value="389">Guadalupe</option>
+							<option value="390">Guaduas</option>
+							<option value="391">Guaitarilla</option>
+							<option value="392">Gualmatán</option>
+							<option value="393">Guamal</option>
+							<option value="394">Guamal</option>
+							<option value="395">Guamo</option>
+							<option value="396">Guapota</option>
+							<option value="397">Guapí</option>
+							<option value="398">Guaranda</option>
+							<option value="399">Guarne</option>
+							<option value="400">Guasca</option>
+							<option value="401">Guatapé</option>
+							<option value="402">Guataquí</option>
+							<option value="403">Guatavita</option>
+							<option value="404">Guateque</option>
+							<option value="405">Guavatá</option>
+							<option value="406">Guayabal de Siquima</option>
+							<option value="407">Guayabetal</option>
+							<option value="408">Guayatá</option>
+							<option value="409">Guepsa</option>
+							<option value="410">Guicán</option>
+							<option value="411">Gutiérrez</option>
+							<option value="412">Guática</option>
+							<option value="413">Gámbita</option>
+							<option value="414">Gámeza</option>
+							<option value="415">Génova</option>
+							<option value="416">Gómez Plata</option>
+							<option value="417">Hacarí</option>
+							<option value="418">Hatillo de Loba</option>
+							<option value="419">Hato</option>
+							<option value="420">Hato Corozal</option>
+							<option value="421">Hatonuevo</option>
+							<option value="422">Heliconia</option>
+							<option value="423">Herrán</option>
+							<option value="424">Herveo</option>
+							<option value="425">Hispania</option>
+							<option value="426">Hobo</option>
+							<option value="427">Honda</option>
+							<option value="428">Ibagué</option>
+							<option value="429">Icononzo</option>
+							<option value="430">Iles</option>
+							<option value="431">Imúes</option>
+							<option value="432">Inzá</option>
+							<option value="433">Inírida</option>
+							<option value="434">Ipiales</option>
+							<option value="435">Isnos</option>
+							<option value="436">Istmina</option>
+							<option value="437">Itagüí</option>
+							<option value="438">Ituango</option>
+							<option value="439">Izá</option>
+							<option value="440">Jambaló</option>
+							<option value="441">Jamundí</option>
+							<option value="442">Jardín</option>
+							<option value="443">Jenesano</option>
+							<option value="444">Jericó</option>
+							<option value="445">Jericó</option>
+							<option value="446">Jerusalén</option>
+							<option value="447">Jesús María</option>
+							<option value="448">Jordán</option>
+							<option value="449">Juan de Acosta</option>
+							<option value="450">Junín</option>
+							<option value="451">Juradó</option>
+							<option value="452">La Apartada y La Frontera</option>
+							<option value="453">La Argentina</option>
+							<option value="454">La Belleza</option>
+							<option value="455">La Calera</option>
+							<option value="456">La Capilla</option>
+							<option value="457">La Ceja</option>
+							<option value="458">La Celia</option>
+							<option value="459">La Cruz</option>
+							<option value="460">La Cumbre</option>
+							<option value="461">La Dorada</option>
+							<option value="462">La Esperanza</option>
+							<option value="463">La Estrella</option>
+							<option value="464">La Florida</option>
+							<option value="465">La Gloria</option>
+							<option value="466">La Jagua de Ibirico</option>
+							<option value="467">La Jagua del Pilar</option>
+							<option value="468">La Llanada</option>
+							<option value="469">La Macarena</option>
+							<option value="470">La Merced</option>
+							<option value="471">La Mesa</option>
+							<option value="472">La Montañita</option>
+							<option value="473">La Palma</option>
+							<option value="474">La Paz</option>
+							<option value="475">La Paz (Robles)</option>
+							<option value="476">La Peña</option>
+							<option value="477">La Pintada</option>
+							<option value="478">La Plata</option>
+							<option value="479">La Playa</option>
+							<option value="480">La Primavera</option>
+							<option value="481">La Salina</option>
+							<option value="482">La Sierra</option>
+							<option value="483">La Tebaida</option>
+							<option value="484">La Tola</option>
+							<option value="485">La Unión</option>
+							<option value="486">La Unión</option>
+							<option value="487">La Unión</option>
+							<option value="488">La Unión</option>
+							<option value="489">La Uvita</option>
+							<option value="490">La Vega</option>
+							<option value="491">La Vega</option>
+							<option value="492">La Victoria</option>
+							<option value="493">La Victoria</option>
+							<option value="494">La Victoria</option>
+							<option value="495">La Virginia</option>
+							<option value="496">Labateca</option>
+							<option value="497">Labranzagrande</option>
+							<option value="498">Landázuri</option>
+							<option value="499">Lebrija</option>
+							<option value="500">Leiva</option>
+							<option value="501">Lejanías</option>
+							<option value="502">Lenguazaque</option>
+							<option value="503">Leticia</option>
+							<option value="504">Liborina</option>
+							<option value="505">Linares</option>
+							<option value="506">Lloró</option>
+							<option value="507">Lorica</option>
+							<option value="508">Los Córdobas</option>
+							<option value="509">Los Palmitos</option>
+							<option value="510">Los Patios</option>
+							<option value="511">Los Santos</option>
+							<option value="512">Lourdes</option>
+							<option value="513">Luruaco</option>
+							<option value="514">Lérida</option>
+							<option value="515">Líbano</option>
+							<option value="516">López (Micay)</option>
+							<option value="517">Macanal</option>
+							<option value="518">Macaravita</option>
+							<option value="519">Maceo</option>
+							<option value="520">Machetá</option>
+							<option value="521">Madrid</option>
+							<option value="522">Magangué</option>
+							<option value="523">Magüi (Payán)</option>
+							<option value="524">Mahates</option>
+							<option value="n525">Maicao</option>
+							<option value="526">Majagual</option>
+							<option value="527">Malambo</option>
+							<option value="528">Mallama (Piedrancha)</option>
+							<option value="529">Manatí</option>
+							<option value="530">Manaure</option>
+							<option value="531">Manaure Balcón del Cesar</option>
+							<option value="532">Manizales</option>
+							<option value="533">Manta</option>
+							<option value="534">Manzanares</option>
+							<option value="535">Maní</option>
+							<option value="536">Mapiripan</option>
+							<option value="537">Margarita</option>
+							<option value="538">Marinilla</option>
+							<option value="539">Maripí</option>
+							<option value="540">Mariquita</option>
+							<option value="541">Marmato</option>
+							<option value="542">Marquetalia</option>
+							<option value="543">Marsella</option>
 							<option value="544">Marulanda</option>
 							<option value="545">María la Baja</option>
 							<option value="546">Matanza</option>
@@ -1154,30 +1155,46 @@
 							<option value="1099">Úmbita</option>
 							<option value="2000">Útica</option>
 						</select>
-						<br></div>
-						<div class="col-md-12">
-							<label>Descripcion del hogar</label>
-							<input type="text" name="text">
-							<br></div>
-							<div class="col-sm-6 col-sm-6">
-								<label>¿Cuanto estas dispuesto a pagar?</label>
-								<input type="number" name="">
-								<br>
-								<label>Seleccione el tipo de domicilio</label>
-								<input type="radio" name=""><label>Casa</label>
-								<input type="radio" name=""><label>empresa</label>
-								<input type="radio" name=""><label>finca</label>
-								<input type="radio" name=""><label>apartamento</label>
-								<input type="radio" name=""><label>otro</label>
-								<br></div>
-								<div class="col-md-12">
-									<label>Especifique "otro"</label>
-									<input type="text" name="">
-									<br></div>
+						<br>
+					</div>
+					<div class="col-md-12">	
+						<label for="des">Descripcion</label>
+						<input  type="text" name="registro" class="des">
+						<br>
+					</div>
+					<div class="offset-md-12">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-8">
+						<h6>Tipo De Domicilio</h6>
+						<label>Seleccione el tipo de domicilio</label>
+								<input type="radio" name="tipo" class="tipo"><label>Casa</label>
+								<input type="radio" name="tipo" class="tipo"><label>Empresa</label>
+								<input type="radio" name="tipo" class="tipo"><label>Finca</label>
+								<input type="radio" name="tipo" class="tipo"><label>Apartamento</label>
+								<input type="radio" name="tipo" class="tipo"><label>Otro</label>
+							</div>
 
-									<button>Registrarse</button>
+					<div class="col-md-12">
+						<h6>Usuario</h6>
+						<label for="email">Email</label>
+						<input  type="text" name="email" class="email">
+						<br>
+						<label for="user">Nombre De Usuario</label>
+						<input  type="text" name="registro" class="user">
+						<br>
+						<label for="password">Contraseña</label>
+						<input type="password" name="registro" class="password">
+						<br>
+						<button type="submit">Registrarse</button> 
+						<button onclick="location.href='Inicio.html'">
+							Inicio
+						</button>
 								</body>
 								<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 								<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 								<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+								<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+	                           <script src="javascript/firebase.js"></script>
+	                           <script src="javascript/main.js"></script>
+
 								</html>

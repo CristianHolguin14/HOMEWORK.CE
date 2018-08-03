@@ -1,5 +1,4 @@
-// Initialize Firebase
-  var config = {
+var config = {
     apiKey: "AIzaSyClhlxMkx7r6Ph0B7o_Y0iaNvzS2Rqjt78",
     authDomain: "homeworkce-e9008.firebaseapp.com",
     databaseURL: "https://homeworkce-e9008.firebaseio.com",
@@ -10,6 +9,18 @@
   firebase.initializeApp(config);
   const database = firebase.database();
 
-   var name = $ ('.name').val();
-   var number = $ ('.number').val();
-   var lugares = $ ('.container').val();
+
+   var datos ={
+    name: $('.name').val(),
+    apellido: $('.apellido').val(),
+    number: $('.number').val(),
+    genero: $('.genero').val(),
+    dep: $('.dep').val(),
+    ciu: $('.ciu').val(),
+    des: $('.des').val(), 
+    tipo: $('.tipo').val(),
+  };  
+
+
+    database.ref('homeworkce-e9008').push(datos);
+

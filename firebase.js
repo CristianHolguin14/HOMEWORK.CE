@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var config = {
   apiKey: "AIzaSyClhlxMkx7r6Ph0B7o_Y0iaNvzS2Rqjt78",
   authDomain: "homeworkce-e9008.firebaseapp.com",

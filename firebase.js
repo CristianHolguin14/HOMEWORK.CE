@@ -164,5 +164,4 @@ function iterar(data) {
 
   traerMensajes.then(function (data){
     iterar(data);
->>>>>>> 400ac734a394c9ff94faf5ddbabb51ff3f78511f
   });

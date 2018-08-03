@@ -1,0 +1,84 @@
+body
+{
+	font-size: 16px;
+}
+.color1
+{
+	background-color: #1e2270;
+	color: white;
+	padding: 5px;
+}
+.color2
+{
+	background-color: rgb(89, 96, 214);
+	color: black;
+	padding: 15px;
+	border: 15px ##5960d6 solid;
+}
+.uno
+{
+	padding: 50px;
+	background-color: rgb(89, 96, 214);
+	font-size: 45px;
+}
+button{
+	margin-bottom: -98px;
+	margin-left: 183px;
+	background-color: white;
+	transition: all 1s ease;
+	position: relative;
+	margin-right: -114px;
+	margin-top: -131px;
+	padding-top: 4px;
+	border-top: 30px;
+	padding: 3px 110px;
+}
+button:hover {
+	background: black;
+	color: #fff;
+}
+p {
+	color: white;
+}
+body {
+	background-image: url(http://www.gifsyfondos.com/alfombraazul.gif);
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	width: 33.07%;
+	background-color: #1e2270;
+	color: #E98A8A;
+	padding: 16.34px;
+	margin: 0;
+}
+
+.letra-blanca {
+	color: #FFF;
+}
+.dropdown button {
+	width: 85%;
+	padding-right: 9px;
+	background-color: gray;
+}
+.dropdown button:hover {
+	background: black;
+	color: #fff;	
+}
+
+.caja {
+	margin: 10px
+}
+
+header {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 98px;
+	width: 110%;
+}

@@ -4,8 +4,6 @@ jQuery(document).ready(function($){
     function(e){
       e.preventDefault();
 
-
-
       var email = $('.registro .email').val();
       var password = $('.registro .password').val();
 
